@@ -1,0 +1,15 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /Employee-service
+
+  spring:
+    application:
+      name: Employee-service
+
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+
+
